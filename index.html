@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- logo da Página -->  
+  <link rel="shortcut icon" href="./img/logo-asiaF.png" />
+  
+  <!-- Estilo da Página -->
+  <link rel="stylesheet" href="./style/main.css">
+
+  <!-- Responsividade -->
+  <link rel="stylesheet" href="style/responsive.css">
+  
+  <!-- Owl CSS -->
+  <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+  
+  <title>Asiaflix</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h2 class="logo" onclick="informacao(11)">ASIAFLIX</h2>
+      <nav>
+        <a href="#">Início</a>
+        <a href="https://www.netflix.com/br/browse/genre/108662">Séries</a>
+        <a href="https://www.netflix.com/br/browse/genre/108662">Filmes</a>
+        <a href="https://www.netflix.com/br/browse/genre/108662">Documentários</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="filme-principal">
+      <div class="container">
+        <h3 class="titulo">SAMURAI X </h3>
+        <p class="descricao">Kenshin Himura era um samurai, que trabalhava a serviço do Império, mas com o fim do xogunato e instauração do governo Meiji, ele faz a promessa de nunca mais voltar a matar.</p>
+
+        <div class="botoes">
+          <button class="botao" role="button" onclick="window.open('https://www.youtube.com/watch?v=Wp5xUg8LKwY')">
+            <i class="fas fa-play"></i>
+            ASSISTIR AGORA
+          </button>
+          <button class="botao" role="button" onclick="informacao(0)">
+            <i class="fas fa-info-circle"></i>
+            MAIS INFORMAÇÃO
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <div class="carrossel-filmes">
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <img class="box-filme" src="img/mini1.png" alt="" onclick="informacao(1)">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/mini2.png" alt="" onclick="informacao(2)">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/mini3.png" alt="" onclick="informacao(3)">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/mini4.png" alt="" onclick="informacao(4)">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/mini5.png" alt="" onclick="informacao(5)">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/mini6.png" alt="" onclick="informacao(6)">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/mini7.png" alt="" onclick="informacao(7)">
+      </div>
+    </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+  <script src="js/owl/jquery.min.js"></script>
+  <script src="js/owl/owl.carousel.min.js"></script>
+  <script src="js/owl/setup.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
